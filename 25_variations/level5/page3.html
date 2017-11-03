@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[Persian Letters]</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="[Persian Letters]">
+        <meta name="keywords" content="poem">
+        <meta name="author" content="Aric Knowles">
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+<script>
+$(window).scroll(function(){
+	console.log('scroll');
+  var head = $('#head'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 100) head.addClass('fixed');
+  else head.removeClass('fixed');
+});        
+</script>
+
+    </head>
+    <style>
+          body {
+              background: black;
+}
+        
+        h1{
+            font-size: 14pt;
+        }
+        h2{
+            font-size: 12pt;
+}
+        
+        #head {
+            opacity: .4;
+            color: white;
+            text-align: center;
+            font-family: 'georgia', serif;
+            margin-bottom: 700px;
+        }
+        
+        #head:hover{
+            opacity: .9;
+            transition: all 0.2s ease-in-out;
+
+        }
+        
+        .title {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-family: 'georgia', serif;
+            color: white;
+            margin-top: 200px;
+            background: black;
+        }
+        
+        .fixed {
+  position: fixed;
+        }
+  
+        .shake {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-family: 'georgia', serif;
+            color: white;
+            margin-top: 700px;
+            margin-bottom: 700px;
+        }
+        .shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+        .circle {
+            width: 110px;
+            height: 110px;
+            background: black;
+            -moz-border-radius: 200px;
+            -webkit-border-radius: 200px;
+            border-radius: 200px;
+            padding: 100px;
+            margin: auto;
+            opacity:0;
+
+        }
+      
+
+ .arrow a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: background-color 0.5s ease;
+
+}
+
+. arrow a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    opacity: .5;
+
+}
+
+.next {
+    background-color: #f1f1f1;
+    color: black;
+    float: right;
+    opacity: .5;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+    </style>
+    <body>
+       <div class="arrow"> <a href="page2.html" class="previous round">&#8249;</a>
+        <a href="page4.html" class="next round">&#8250;</a></div>
+        <div id="head"><h1>
+            [Persian Letters]</h1>
+            <h2>By Solmaz Sharif</h2> 
+</div><div id="container">
+        <div class="title"><p>Dear Aleph,</p></div>
+
+        <div class="title"> <p> Like Ovid: I’ll have no last words.</p></div>
+        <div class="title"><p> This is what it means to die among barbarians.</p></div>
+        <div class=shake style="font-size: 15px"><p><em>Bar</em></p></div>
+        <div class="shake" style="font-size: 20px"><p><em>bar</em></p></div>
+        <div class="shake" style="font-size: 25px"><p><em>bar</em></p></div>
+        <div class="title"><p> was how the Greeks heard our speech —</p></div>
+        <div class="title"><p> sheep, beasts — and so we became</p></div>
+        <div class="title"><p> barbarians. We make them reveal</p></div>
+        <div class="title"><p> the brutes they are, Aleph, by the things</p></div>
+        <div class="title"><p> we make them name. David,</p></div>
+        <div class="title"><p> they tell me, is the one</p></div>
+        <div class="title"><p> one should aspire to, but ever since</p></div>
+        <div class="title"><p> I first heard them say <em>Philistine</em></p></div>
+        <div class="title"> <p> I’ve known I am Goliath</p></div>
+        <div class="title"><p> if I am anything.</p></div></div>
+
+    </body>
+</html>

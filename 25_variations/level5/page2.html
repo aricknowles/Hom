@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[Persian Letters]</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="[Persian Letters]">
+        <meta name="keywords" content="poem">
+        <meta name="author" content="Aric Knowles">
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.js"
+                integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+        <script>$(function(){ 
+  $('.head').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    $(window).scroll( function(){
+    
+  
+        $('.title').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+         
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+        </script>
+    </head>
+    <style>
+          body {
+              background: black;
+}
+        
+        h1{
+            font-size: 14pt;
+            color: white;
+            text-align: center;
+            font-family: 'georgia', serif;
+
+
+
+        }
+        h2{
+            font-size: 12pt;
+            color: white;
+            text-align: center;
+            font-family: 'georgia', serif;
+
+
+
+        }
+        .title {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-family: 'georgia', serif;
+            color: white;
+            margin-top: 1000px;
+            opacity: 0;
+        }
+
+        #container
+{
+    height:1000px;    
+}
+
+
+        .circle {
+            width: 110px;
+            height: 110px;
+            background: black;
+            -moz-border-radius: 200px;
+            -webkit-border-radius: 200px;
+            border-radius: 200px;
+            padding: 100px;
+            margin: auto;
+            opacity:0;
+
+        }
+      
+.arrow a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: background-color 0.5s ease;
+
+}
+
+. arrow a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    opacity: .5;
+
+}
+
+.next {
+    background-color: #f1f1f1;
+    color: black;
+    float: right;
+    opacity: .5;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+    </style>
+    <body>
+       <div class="arrow"> <a href="page1.html" class="previous round">&#8249;</a>
+        <a href="page3.html" class="next round">&#8250;</a></div>
+        <div id="head"><h1>
+            [Persian Letters]</h1>
+            <h2>By Solmaz Sharif</h2> 
+</div><div id="container">
+        <div class="title"><p>Dear Aleph,</p></div>
+
+        <div class="title"> <p> Like Ovid: I’ll have no last words.</p></div>
+        <div class="title"><p> This is what it means to die among barbarians.</p></div>
+        <div class="title" style="font-size: 15px"><p><em>Bar</em></p></div>
+        <div class="title" style="font-size: 20px"><p><em>bar</em></p></div>
+        <div class="title" style="font-size: 25px"><p><em>bar</em></p></div>
+        <div class="title"><p> was how the Greeks heard our speech —</p></div>
+        <div class="title"><p> sheep, beasts — and so we became</p></div>
+        <div class="title"><p> barbarians. We make them reveal</p></div>
+        <div class="title"><p> the brutes they are, Aleph, by the things</p></div>
+        <div class="title"><p> we make them name. David,</p></div>
+        <div class="title"><p> they tell me, is the one</p></div>
+        <div class="title"><p> one should aspire to, but ever since</p></div>
+        <div class="title"><p> I first heard them say <em>Philistine</em></p></div>
+        <div class="title"> <p> I’ve known I am Goliath</p></div>
+        <div class="title"><p> if I am anything.</p></div></div>
+
+    </body>
+</html>
