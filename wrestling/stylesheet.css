@@ -1,0 +1,84 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+    padding: 0;
+        }
+        h1 {
+            font-size: 400px;
+            letter-spacing: -90px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            font-weight: 900;
+            transform: rotate(-30deg);
+
+
+        }
+        h2 {
+            font-size: 401px;
+            letter-spacing: -18px;
+            font-weight: 100;
+            position: relative;
+            top: 267px;
+            left: 40px;
+            color: white;
+        }
+        h3 {
+            font-size: 80px;
+            position: relative;
+            left: 130px;
+            bottom: -265px;
+            transform: rotate(-30deg);
+
+        }
+        h4 {
+            font-size: 102px;
+            position: relative;
+            left: 170px;
+            bottom: -80px;
+            transform: rotate(-30deg);
+
+        }
+        .brass{            
+            font-size: 50px;
+            position: fixed;
+            padding-top: 300px;
+            font-weight: 900;            
+            padding-left: 8px;
+
+        }
+        .dust {            
+            font-size: 50px;
+            position: fixed;
+            padding-top: 300px;
+            font-weight: 900;
+            right: 0;
+            padding-right: 8px;
+
+        }
+        .first {
+            height: 2000px;
+        }
+        .second {
+            height: 900px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+
+        }
+
+        .water {
+            height: 100%;
+            width: 100%;
+            background-color: skyblue;
+            opacity: .5;
+            overflow: auto;
+            float: left; 
+            position: fixed;
+        }
+.words {
+position: fixed; 
+font-weight: 900;            
+font-size: 40PX;
+margin-left: 9px;
+}
