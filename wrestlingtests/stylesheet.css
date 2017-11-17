@@ -1,23 +1,15 @@
 body {
-    cursor: pointer;
+    cursor: default;
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 
-}
-.disc {
-  width: 30px;
-  height: 40px;
-    margin-top: -14px;
-    font-size: 50px;
-    text-align: center;
 }
         h1 {
             font-size: 400px;
             letter-spacing: -90px;
             position: absolute;
-            left: 0;
-            right: 0;
             font-weight: 900;
-            transform: rotate(-30deg);
 
 
         }
@@ -25,53 +17,49 @@ body {
             font-size: 401px;
             letter-spacing: -18px;
             font-weight: 100;
-            position: relative;
-            top: 267px;
-            left: 40px;
+            position: absolute;
             color: white;
         }
         h3 {
-            font-size: 80px;
-            position: relative;
-            left: 130px;
-            bottom: -265px;
-            transform: rotate(-30deg);
+            font-size: 78px;
+            position: absolute;
+            top: 570px;
+            left: 80px;
 
         }
         h4 {
-            font-size: 102px;
-            position: relative;
-            left: 170px;
-            bottom: -80px;
-            transform: rotate(-30deg);
+            font-size: 110px;
+            position: absolute;
+            top: 560px;
+            left: 90px;
+
 
         }
         .brass{            
-            font-size: 50px;
-            position: fixed;
-            padding-top: 300px;
+            font-size: 90px;
             font-weight: 900;            
             padding-left: 8px;
-
-        }
+            top: 0;
+            width: 100%
+            position: absolute;
+            z-index: 1000;
+            }
         .dust {            
-            font-size: 50px;
-            position: fixed;
-            padding-top: 300px;
+            font-size: 90px;
+            position: absolute;
+            right: 50%;           
             font-weight: 900;
-            right: 0;
-            padding-right: 8px;
+
 
         }
+
         .first {
             height: 2000px;
         }
         .second {
-            height: 900px;
             width: 100%;
             text-align: center;
-            position: fixed;
-
+            right: -39%;
         }
 
         .water {
@@ -88,4 +76,14 @@ position: fixed;
 font-weight: 900;            
 font-size: 40PX;
 margin-left: 9px;
+right: 50%;
+    align-content: center;
+}
+.bigwords {
+position: fixed; 
+font-weight: 900;            
+font-size: 40PX;
+left: 0;
+padding-left: 8px;
+align-content: center;
 }
