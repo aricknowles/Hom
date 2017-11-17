@@ -29,7 +29,8 @@ body {
     height: 30%;
     overflow: hidden;
     margin: 0 auto;
-    background-color: lightskyblue;
+    background-color: #359ae8;
+    opacity: 1;
 }
         h1 {
             font-size: 400px;
@@ -52,7 +53,7 @@ body {
             color: white;
         }
         h3 {
-            font-size: 80px;
+            font-size: 75px;
             position: relative;
             left: 130px;
             bottom: -265px;
