@@ -1,0 +1,102 @@
+body {
+    cursor: default;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.disc {
+  width: 60px;
+  height: 40px;
+    margin-top: -14px;
+    font-size: 50px;
+    text-align: center;
+}
+.disc2 {
+  width: 200px;
+  height: 40px;
+    margin-top: -14px;
+    float: right;
+    font-size: 50px;
+    text-align: center;}
+.disc3 {
+  width: 350px;
+  height: 155px;
+    margin-top: -14px;
+    float: right;
+    font-size: 20px;
+    text-align: center;}
+#discholder{
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: lightskyblue;
+}
+        h1 {
+            font-size: 400px;
+            letter-spacing: -90px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            font-weight: 900;
+            transform: rotate(-30deg);
+
+
+        }
+        h2 {
+            font-size: 401px;
+            letter-spacing: -18px;
+            font-weight: 100;
+            position: relative;
+            top: 267px;
+            left: 40px;
+            color: white;
+        }
+        h3 {
+            font-size: 80px;
+            position: relative;
+            left: 130px;
+            bottom: -265px;
+            transform: rotate(-30deg);
+
+        }
+        h4 {
+            font-size: 102px;
+            position: relative;
+            left: 170px;
+            bottom: -80px;
+            transform: rotate(-30deg);
+
+        }
+        .brass{            
+            font-size: 50px;
+            position: fixed;
+            padding-top: 300px;
+            font-weight: 900;            
+            padding-left: 8px;
+
+        }
+        .dust {            
+            font-size: 50px;
+            position: fixed;
+            padding-top: 300px;
+            font-weight: 900;
+            right: 0;
+            padding-right: 8px;
+
+        }
+        .first {
+            height: 2000px;
+        }
+        .second {
+            height: 900px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+
+        }
+.words {
+position: fixed; 
+font-weight: 900;            
+font-size: 40PX;
+margin-left: 9px;
+}
