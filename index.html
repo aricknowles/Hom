@@ -6,30 +6,76 @@
     <meta name="description" content="DESCRIPTIONGOESHERE">
     <meta name="keywords" content="KEYWORDSGOHERE">
     <meta name="author" content="Aric Knowles">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     </head>
-    <style>
-        h1 {
-            
-        }
-        li {
-            list-style: none;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-        }
-        a:hover {
-            color:dimgrey;
-        }
-    </style>
     <body>
-        <h1>Projects:</h1>
-   <ul> <li><a href="25_variations/25_variations/index.html">25 Variations</a></li>
-    <li><a href="wrestling/index.html">Microsite</a></li>
-        <li><a href="wrestlingtests/index.html">Microsite 2</a></li></ul>
-        <h1>Excercises:</h1>
-<ul> <li><a href="exercise/blinds.html">Blinds</a></li>
-    <li><a href="exercise/malevich/index.html">Malevich</a></li></ul>
+<div class="text"><h1>THIS IS A WEBSITE</h1></div>
+<div id="container">
+<div id="row5">
+<div class="box3"></div>
+<div class="box4"></div>
+<div class="box5"></div>
+<div class="box3"></div>
+<div class="box1"></div>
+<div class="box2"></div>
+        </div>
+
+<div id="row4">
+<div class="box4"></div>
+<div class="box1"></div>
+<div class="box3"></div>
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box5"></div>
+<div class="box1"></div>
+</div>
+<div id="row3">
+<div class="box2"></div>
+<div class="box5"></div>
+<div class="box2"></div>
+<div class="box5"></div>
+<div class="box1"></div>
+<div class="box4"></div>
+        </div>
+        
+<div id="row2">
+<div class="box1"></div>
+<div class="box4"></div>
+<div class="box1"></div>
+<div class="box4"></div>
+<div class="box3"></div>
+<div class="box5"></div>
+<div class="box5"></div>
+</div>
+        <div id="row">
+<div class="box3"></div>
+<div class="box5"></div>
+<div class="box2"></div>
+<div class="box5"></div>
+<div class="box2"></div>
+<div class="box1"></div>
+        </div>
+
+</div>
+    <script>
+$(document).ready(function(){
+    $('.box1').click(function(event){
+        event.stopPropagation();
+         $(this).animate({height:'600'});
+    });
+    $(".box1").on("click", function (event) {
+        event.stopPropagation();
+    });
+});
+
+$(document).on("click", function () {
+    $(".box1").animate({height:'300'});
+});
+
+</script>
 
     </body>
 </html>

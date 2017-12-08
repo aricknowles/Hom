@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+h1 {
+    font-size: 220px;
+    line-height: 170px;
+}
+.text {
+    margin-top: -130px;
+    padding-left: 20px;
+    
+}
+.box1 {
+    background-color: #92a78c;
+    height: 300px;
+    flex: 1;
+    border-radius: 500px;
+    position: relative;
+    align-self: flex-end;
+    transition: all .5s;
+}
+
+.box2 {
+    background-color: #5b584f;
+    height: 300px;
+    flex: 1;
+    border-radius: 500px;
+    position: relative;
+    align-self: flex-end;
+    transition: all .5s;
+
+}
+.box3 {
+    background-color: #e0d5ad;
+    height: 300px;
+    flex: 1;
+    border-radius:500px;
+    position: relative;
+    align-self: flex-end;
+    transition: all .5s;
+
+}
+.box4 {
+    background-color: #f7cd82;
+    height: 300px;
+    flex: 1;
+    border-radius: 500px;
+    position: relative;
+    align-self: flex-end;
+    transition: all .5s;
+
+}
+.box5 {
+    background-color: #f79e6b;
+    height: 300px;
+    flex: 1;
+    border-radius: 500px;
+    position: relative;
+    align-self: flex-end;
+    transition: all .5s;
+
+}
+.box1:hover {
+	height: 320px;
+}
+.box2:hover {
+	height: 320px;
+}
+.box3:hover {
+	height: 320px;
+}
+.box4:hover {
+	height: 320px;
+}
+.box5:hover {
+	height: 320px;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom:-200px;
+    overflow: hidden;
+
+}
+#row2 {
+    display: flex;
+    flex-direction: row;
+    width: 116.6%;
+    position: absolute;
+    bottom: -100px;
+    overflow: hidden;
+    right: -8.5%;
+    overflow: hidden;
+
+
+}
+#row3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+
+}
+#row4 {
+    display: flex;
+    flex-direction: row;
+    width: 116.6%;
+    position: absolute;
+    bottom: 100px;
+    overflow: hidden;
+    right: -8.5%;
+    overflow: hidden;
+
+}
+#row5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: 180px;
+    overflow: hidden;
+
+}
+#container {
+    height: 100vh;
+    overflow: hidden;
+
+}
