@@ -1,17 +1,39 @@
+html { 
+    background-color:#f2eee3;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body{
     margin: 0px;
     height: 100%;
     overflow: hidden;
     font-family: 'Titillium Web', sans-serif;
+    
 
 }
 h1 {
-    font-size: 220px;
-    line-height: 170px;
+    font-size: 40px;
+    line-height: 20px;
+    
+}
+h2 {
+margin-top: 70px;
+font-size: 1.5vw;
+line-height: 2px
+}
+h3 {
+font-size: 1.3vw;
+line-height: 10px;
+font-weight: 100;
+letter-spacing: .5vw    
 }
 .text {
-    margin-top: -130px;
     padding-left: 20px;
+    
     
 }
 .box1 {
@@ -22,8 +44,29 @@ h1 {
     position: relative;
     align-self: flex-end;
     transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+        color: black;
+
+
+}
+.imgcontainer {
+    margin:10px;
+    padding-top: 50px;
+    opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+
+}
+.imgcontainer:hover {
+    opacity: 1;
 }
 
+img{
+max-width:100%;
+}
 .box2 {
     background-color: #5b584f;
     height: 300px;
@@ -32,16 +75,23 @@ h1 {
     position: relative;
     align-self: flex-end;
     transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+    color: white;
 
 }
 .box3 {
     background-color: #e0d5ad;
     height: 300px;
     flex: 1;
-    border-radius:500px;
+    border-radius: 500px;
     position: relative;
     align-self: flex-end;
     transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+        color: white;
+
 
 }
 .box4 {
@@ -52,6 +102,10 @@ h1 {
     position: relative;
     align-self: flex-end;
     transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+        color: white;
+
 
 }
 .box5 {
@@ -62,22 +116,21 @@ h1 {
     position: relative;
     align-self: flex-end;
     transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+        color: white;
+
 
 }
-.box1:hover {
+.active {
+height: 600px;
+}
+
+.hover {
 	height: 320px;
 }
-.box2:hover {
-	height: 320px;
-}
-.box3:hover {
-	height: 320px;
-}
-.box4:hover {
-	height: 320px;
-}
-.box5:hover {
-	height: 320px;
+.boxa:hover{
+    height: 320px;
 }
 
 #row {
@@ -134,4 +187,22 @@ h1 {
     height: 100vh;
     overflow: hidden;
 
+}
+video::-webkit-media-controls {
+    display:none !important;
+    
+
+}
+.videocont {
+    padding-top: 50px;
+    opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    max-width:100%;
+
+}
+.videocont:hover {
+    opacity: 1;
 }
