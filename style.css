@@ -31,6 +31,10 @@ line-height: 10px;
 font-weight: 100;
 letter-spacing: .5vw    
 }
+h2:hover {
+    cursor: default;
+}
+
 .text {
     padding-left: 20px;
     
@@ -108,6 +112,7 @@ max-width:100%;
 
 
 }
+
 .box5 {
     background-color: #f79e6b;
     height: 300px;
@@ -121,6 +126,10 @@ max-width:100%;
         color: white;
 
 
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 .active {
 height: 600px;
